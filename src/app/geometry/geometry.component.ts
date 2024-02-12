@@ -3,6 +3,12 @@ import { Shape } from '../classes/shape';
 import { Square } from '../classes/square';
 import { Rectangel } from '../classes/rectangel';
 
+/*
+ * Component to calculate some geometry shapes
+ * Input value is retrived from the DOM. It could also be possible
+ * To bind data, but the topic has not been covered yet, so i wont include it
+ */
+
 @Component({
   selector: 'app-geometry',
   standalone: true,
