@@ -1,0 +1,28 @@
+<div class="container mb-3 text-center ">
+    <h2>Geometry Calculator</h2>
+    <label class="form-label" for="length">Length:</label>
+    <input class="form-control" type="number" id="length">
+    <br>
+    <label class="form-label" for="width">Width:</label>
+    <input class="form-control" type="number" id="width">
+    <br>
+    <div class="row gx-5">
+        <div class="col">
+            <div class="p-3">
+                <button class="btn btn-secondary" (click)="calculateArea('square')">Calculate Square Area</button>
+            </div>
+        </div>
+        <div class="col">
+            <div class="p-3">
+                <button class="btn btn-secondary" (click)="calculateArea('rectangle')">Calculate Rectangle Area</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div>
+        <label class="form-label" id="area"></label>
+    </div>
+    <div>
+        <label class="form-label" id="perimiter"></label>
+    </div>
+</div>
